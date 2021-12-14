@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Living Room",
+                "id": "living_room",
+                "picture": null
+            },
+            {
+                "name": "Kitchen",
+                "id": "kitchen",
+                "picture": null
+            },
+            {
+                "name": "Bedroom",
+                "id": "bedroom",
+                "picture": null
+            },
+            {
+                "name": "Main",
+                "id": "main",
+                "picture": null
+            },
+            {
+                "name": "Terrace",
+                "id": "terrace",
+                "picture": null
+            },
+            {
+                "name": "La Royaume",
+                "id": "la_royaume",
+                "picture": null
+            },
+            {
+                "name": "Guest",
+                "id": "guest",
+                "picture": null
+            },
+            {
+                "name": "Dinning Room",
+                "id": "dinning_room",
+                "picture": null
+            }
+        ]
+    }
+}

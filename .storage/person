@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "DeHavilland Fox",
+                "user_id": "45b40bf5bdd24cd8b60fef7947836469",
+                "device_trackers": [
+                    "device_tracker.de_havillands_iphone_12_pro_max_b",
+                    "device_tracker.de_havillands_apple_watch_5",
+                    "device_tracker.de_havillands_apple_watch_6",
+                    "device_tracker.de_havillands_iphone_12_pro_max_b_2"
+                ],
+                "id": "dehavilland",
+                "picture": null
+            },
+            {
+                "name": "Surona Fox",
+                "device_trackers": [
+                    "device_tracker.iphone_2"
+                ],
+                "user_id": null,
+                "picture": null,
+                "id": "surona_fox"
+            }
+        ]
+    }
+}

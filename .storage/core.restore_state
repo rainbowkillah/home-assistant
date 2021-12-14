@@ -1,0 +1,408 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.dehavilland",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "dehavilland",
+                    "latitude": 32.52792459449973,
+                    "longitude": -117.10655266429958,
+                    "gps_accuracy": 9.790061077931146,
+                    "source": "device_tracker.de_havillands_apple_watch_6",
+                    "user_id": "45b40bf5bdd24cd8b60fef7947836469",
+                    "friendly_name": "DeHavilland Fox"
+                },
+                "last_changed": "2021-12-14T05:36:29.486458+00:00",
+                "last_updated": "2021-12-14T07:36:40.937827+00:00",
+                "context": {
+                    "id": "2d5a9290d8e83436394c24c33f4e245a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.surona_fox",
+                "state": "Suitland-Mom",
+                "attributes": {
+                    "editable": false,
+                    "id": "surona_fox",
+                    "latitude": 38.8495170603754,
+                    "longitude": -76.92001428110429,
+                    "gps_accuracy": 17.998178423428282,
+                    "source": "device_tracker.iphone_2",
+                    "friendly_name": "Surona Fox"
+                },
+                "last_changed": "2021-12-14T07:06:27.694066+00:00",
+                "last_updated": "2021-12-14T08:37:08.333978+00:00",
+                "context": {
+                    "id": "46ba9583891033e39583e7c244f713ea",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.de_havillands_iphone_12_pro_max_b_2",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B)"
+                },
+                "last_changed": "2021-12-14T06:32:34.645776+00:00",
+                "last_updated": "2021-12-14T06:32:34.645776+00:00",
+                "context": {
+                    "id": "795f405495db710bc68c4d9f9e983e25",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_activity",
+                "state": "Stationary",
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ],
+                    "icon": "mdi:human-male",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Activity"
+                },
+                "last_changed": "2021-12-14T06:32:34.639786+00:00",
+                "last_updated": "2021-12-14T06:32:34.639786+00:00",
+                "context": {
+                    "id": "18d2b98008fb7bce64bf40f4cb555fcc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_battery_level",
+                "state": "59",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-50",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Battery Level"
+                },
+                "last_changed": "2021-12-14T07:09:58.388501+00:00",
+                "last_updated": "2021-12-14T07:09:58.388501+00:00",
+                "context": {
+                    "id": "3bf1f71303ea045a0e31ff0ce423ca8e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_battery_state_2",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "icon": "mdi:battery-50",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Battery State"
+                },
+                "last_changed": "2021-12-14T06:32:34.641156+00:00",
+                "last_updated": "2021-12-14T07:09:58.388931+00:00",
+                "context": {
+                    "id": "8dc5002954298e55fa900ba052098d1c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_storage",
+                "state": "54.53",
+                "attributes": {
+                    "Available": "43.16 GB",
+                    "Available (Important)": "79.25 GB",
+                    "Available (Opportunistic)": "69.73 GB",
+                    "Total": "127.88 GB",
+                    "unit_of_measurement": "% available",
+                    "icon": "mdi:database",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Storage"
+                },
+                "last_changed": "2021-12-14T07:09:58.389177+00:00",
+                "last_updated": "2021-12-14T07:09:58.389177+00:00",
+                "context": {
+                    "id": "96f6eb8f78904a5de96f98fe51b25254",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_ssid",
+                "state": "La Royaume",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) SSID"
+                },
+                "last_changed": "2021-12-14T06:32:34.641915+00:00",
+                "last_updated": "2021-12-14T06:32:34.641915+00:00",
+                "context": {
+                    "id": "0b0358e6e24f36283fe255db7de26193",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_bssid",
+                "state": "40:3f:8c:b2:fa:7",
+                "attributes": {
+                    "icon": "mdi:wifi-star",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) BSSID"
+                },
+                "last_changed": "2021-12-14T06:32:34.642330+00:00",
+                "last_updated": "2021-12-14T06:32:34.642330+00:00",
+                "context": {
+                    "id": "fd7052d41977c298f6f4482df0a43b52",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Connection Type"
+                },
+                "last_changed": "2021-12-14T06:32:34.642733+00:00",
+                "last_updated": "2021-12-14T06:32:34.642733+00:00",
+                "context": {
+                    "id": "2c8a61764dce058dfd39a37fc77cf054",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_sim_1",
+                "state": "Verizon",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Verizon",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "311",
+                    "Mobile Network Code": "480",
+                    "icon": "mdi:sim",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) SIM 1"
+                },
+                "last_changed": "2021-12-14T06:32:34.642962+00:00",
+                "last_updated": "2021-12-14T06:32:34.642962+00:00",
+                "context": {
+                    "id": "34ca3443bb48c3b47a04d53a61e656cd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "icon": "mdi:sim",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) SIM 2"
+                },
+                "last_changed": "2021-12-14T06:32:34.643216+00:00",
+                "last_updated": "2021-12-14T06:32:34.643216+00:00",
+                "context": {
+                    "id": "d9a23113e806e205c4f0bbc37d42491c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_geocoded_location",
+                "state": "Unknown",
+                "attributes": {
+                    "icon": "mdi:map",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Geocoded Location"
+                },
+                "last_changed": "2021-12-14T06:32:34.643507+00:00",
+                "last_updated": "2021-12-14T06:32:34.643507+00:00",
+                "context": {
+                    "id": "50ef721b284914dd509a77cbfc27172a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.de_havillands_iphone_12_pro_max_b_focus",
+                "state": "off",
+                "attributes": {
+                    "icon": "mdi:moon-waning-crescent",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Focus"
+                },
+                "last_changed": "2021-12-14T06:32:34.645454+00:00",
+                "last_updated": "2021-12-14T06:32:34.645454+00:00",
+                "context": {
+                    "id": "01b6631f1cee35dd9b8539b2136cfe7f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "icon": "mdi:cellphone-wireless",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Last Update Trigger"
+                },
+                "last_changed": "2021-12-14T06:44:13.723372+00:00",
+                "last_updated": "2021-12-14T06:44:13.723372+00:00",
+                "context": {
+                    "id": "5ca36e27668c316a03003e2d5fa423e8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_floors_ascended",
+                "state": "9",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-up",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Floors Ascended"
+                },
+                "last_changed": "2021-12-14T06:32:34.643925+00:00",
+                "last_updated": "2021-12-14T06:32:34.643925+00:00",
+                "context": {
+                    "id": "7dcf980e7e753d0f87c7fb2d282ab981",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_steps",
+                "state": "385",
+                "attributes": {
+                    "unit_of_measurement": "steps",
+                    "icon": "mdi:walk",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Steps"
+                },
+                "last_changed": "2021-12-14T06:32:34.644223+00:00",
+                "last_updated": "2021-12-14T06:32:34.644223+00:00",
+                "context": {
+                    "id": "92ef4a97a03da03dcaaa091d56ea43f9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_floors_descended",
+                "state": "3",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-down",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Floors Descended"
+                },
+                "last_changed": "2021-12-14T06:32:34.644562+00:00",
+                "last_updated": "2021-12-14T06:32:34.644562+00:00",
+                "context": {
+                    "id": "d1ffd290e0953876704d0ebcc902091f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_distance",
+                "state": "309",
+                "attributes": {
+                    "unit_of_measurement": "m",
+                    "icon": "mdi:hiking",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Distance"
+                },
+                "last_changed": "2021-12-14T06:32:34.644825+00:00",
+                "last_updated": "2021-12-14T06:32:34.644825+00:00",
+                "context": {
+                    "id": "59294b929be38b920305cbdd9504d318",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.de_havillands_iphone_12_pro_max_b_average_active_pace",
+                "state": "1",
+                "attributes": {
+                    "unit_of_measurement": "m/s",
+                    "icon": "mdi:speedometer",
+                    "friendly_name": "De Havilland\u2019s iPhone 12 Pro Max (B) Average Active Pace"
+                },
+                "last_changed": "2021-12-14T06:32:34.645129+00:00",
+                "last_updated": "2021-12-14T06:32:34.645129+00:00",
+                "context": {
+                    "id": "43bd8f2b7384e5d7a642b517b42b4c54",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-14T08:48:58.396259+00:00"
+        }
+    ]
+}

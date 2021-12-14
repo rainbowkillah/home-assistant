@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "name": "Suitland-Mom",
+                "latitude": 38.84940911357441,
+                "longitude": -76.91999316215517,
+                "passive": false,
+                "radius": 78.09386013811125,
+                "icon": "mdi:map-marker",
+                "id": "suitland_mom"
+            }
+        ]
+    }
+}

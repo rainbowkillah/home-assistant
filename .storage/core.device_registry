@@ -1,0 +1,1276 @@
+{
+    "version": 1,
+    "minor_version": 2,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d3bfd8636c3e5679f4530b9c32647c34"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "OS"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Operating System",
+                "name": "Home Assistant Operating System",
+                "sw_version": "7.0",
+                "entry_type": "service",
+                "id": "a45bbe36de86c9f95d6c0480e988a38d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e23526d1aec58952b9d3ab21baafb87"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "611c6631ec91a18cfc8352ddb85f1bcf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://www.met.no/en"
+            },
+            {
+                "config_entries": [
+                    "da4ab056a97d0de2845cbebb15ba284c"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:e4c797e0-82ce-4f84-b56d-085d9d77c8cd"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:e4c797e0-82ce-4f84-b56d-085d9d77c8cd"
+                    ]
+                ],
+                "manufacturer": "TP-LINK",
+                "model": "M5",
+                "name": "M5",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "982aee7a01ecd87a1b034f51e9c4da33",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.68.1"
+            },
+            {
+                "config_entries": [
+                    "ab179170df47a607043ed4c24443368e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "1c852a4d-b800-1f08-abcd-9c7befdc46e4"
+                    ]
+                ],
+                "manufacturer": "HP",
+                "model": "OfficeJet 3830 series",
+                "name": "HP OfficeJet 3830 series",
+                "sw_version": "SPP5FN2021AR",
+                "entry_type": null,
+                "id": "e002efd0f1110fd8162e388b942e9ef8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5d:4f:e9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "02b10c2c-46ad-4264-b59d-10f4d663b856"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color Lamp (LCA003)",
+                "name": "Kitchen",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "c8d6567ea871db794349750fb30d1ff5",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5c:95:f2"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "01fecbed-e469-46b0-9f47-6dec868d0b2c"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp (LWA003)",
+                "name": "Main Foyer Middle",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "b41f714af56648883890faf449dccce2",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "main",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5c:8e:8e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "861e28af-1a74-4656-874d-10de382334ac"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp (LWA003)",
+                "name": "Terrace Foyer Bathroom",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "a2a46abd487c08d60f33e87eb8bb1bcd",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "terrace",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5d:42:3a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "49a1b8bb-b6ef-4fcd-95fc-512102db7bc6"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "La Royaume Bed",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "0ae787cd07441b6216f0286a9f68371b",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:f4:08:78"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "04fbf12f-a9b3-4de2-aa17-82ee10edb41c"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue motion sensor (SML001)",
+                "name": "La Royaume IMS",
+                "sw_version": "1.1.27575",
+                "entry_type": null,
+                "id": "559361e70477b1f76ee49f1eb774a465",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5c:f9:34"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "045bb3d4-bb2e-4e4d-a449-33c384578bcb"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "Main Entrance",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "32e846f6314b2a851860f05b8fd7dd68",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "main",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5c:f7:ca"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "0fef142d-117e-4383-b938-3c3ea59a3394"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "La Royaume Patio",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "58a3f88578a1293f216ca1f3e5231277",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:45:57:ff"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "7944cbbe-d11d-4f4f-bdfd-9a1f1489c0a1"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue outdoor motion sensor (SML002)",
+                "name": "Terrace OMS",
+                "sw_version": "1.1.27575",
+                "entry_type": null,
+                "id": "f82bc2217d987d296f60140174898c8e",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "terrace",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5c:f9:49"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "234282df-7932-49cf-b9d9-ffcb2a8ead19"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "Terrace Patio",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "5d3e53a98bb64e129ec10033bc062f65",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "terrace",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:05:1d:8f:b5"
+                    ],
+                    [
+                        "mac",
+                        "ec:b5:fa:1d:8f:b5"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ecb5fafffe1d8fb5"
+                    ],
+                    [
+                        "hue",
+                        "cf299277-1f58-4dd1-86e2-fe6526438757"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "sw_version": "1.48.1948086000",
+                "entry_type": null,
+                "id": "b81d52d89415f12277b6a6b937015931",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:98:62:9e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "d22e94b8-7c92-4ad9-b2ba-b26fb3e21db9"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white lamp (LWB014)",
+                "name": "Guest Foyer Bathroom",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "371dc8c170f63263aa791cf703da674a",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:59:2a:0e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "73674dc6-61f0-4eed-9844-84248d4d89a6"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color Lamp (LCA003)",
+                "name": "Main Foyer Kitchen",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "5ff857133aa3a4f5bfd3cc2a2cfca8a2",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "main",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5d:3f:84"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "1c11fba6-e2bb-489d-a145-9e59430ffc85"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "La Royaume Office",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "c1706beb68936dba15f009c62030cb30",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5c:f8:99"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "f45b2e34-6ece-4410-ac59-81f92c8d263c"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "Guest Foyer Stairs",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "28da48d49f3878e0490830edd6958966",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5c:f9:74"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "5d976ea9-2bda-4421-8b63-c17fc5233c09"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "Terrace Patio Side",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "97d210784a604d060f8440075c4e799a",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "terrace",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5c:95:6b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ad982759-5921-4878-91ab-126546ddf7cb"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp (LWA003)",
+                "name": "Living Room",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "12ed4bc94c2d3f612777b27530330bf9",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:0b:5d:46:1f"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "d4be0b3c-a04f-45d6-87c7-bcfa12b73ea1"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCA005)",
+                "name": "La Royaume Closet",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "17439ad8254a092281369bdce50b1c51",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:18:04:37"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "8017a951-5881-4684-9028-14268440f94e"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue motion sensor (SML001)",
+                "name": "Guest Foyer IMS",
+                "sw_version": "1.1.27575",
+                "entry_type": null,
+                "id": "2105702eedd3e786719e5e47467466ff",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:b9:93:de"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ef645d2c-57d1-4929-a4f0-432b07029996"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue lightstrip plus (LCL001)",
+                "name": "Guest Foyer Hue lightstrip plus",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "eae7035564480c660baccfb9cd437863",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "guest",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:59:25:9c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "8932cac0-b0ad-4be0-9162-5b5407858826"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color Lamp (LCA003)",
+                "name": "Main Foyer Stairs",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "355e8c6f339b63790df4ba15613dd92e",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "main",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5c:97:0c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ade65f44-b42d-4485-a93a-dbe9fa382386"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white Lamp (LWA003)",
+                "name": "Dining Room",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "90accbaf7c19d545158e37c4dc115d8b",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "dinning_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:90:d9:5c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "6cd77b72-1e15-404b-86dd-514f65e19ab4"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white lamp (LWB014)",
+                "name": "La Royaume Entrance",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "5992a22c8c9f634a3779a1c953644472",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "la_royaume",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "85a4a7d7be97a0aef9bc01421d7e238e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:59:02:35"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "210ec7a3-b256-4681-80aa-08b7f51e09f0"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color Lamp (LCA003)",
+                "name": "Terrace Foyer Stairs",
+                "sw_version": "1.88.2",
+                "entry_type": null,
+                "id": "32250e4094899df114503c52874f86a0",
+                "via_device_id": "b81d52d89415f12277b6a6b937015931",
+                "area_id": "terrace",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "6fe907fbd696a41bf919cf5ca58dab68"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
+                    ]
+                ],
+                "manufacturer": "Huawei",
+                "model": "Huawei EchoLife Series",
+                "name": "Huawei IGD",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "99d03304c985bd3d9d9a574aad0320c2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.1.254"
+            },
+            {
+                "config_entries": [
+                    "9e33ed22f335e978be767f4a56ce6c04"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "ebe163bb0d234697e9lrsx"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "Smart Video Doorbell (an1l7vjmqgmkar7z)",
+                "name": "Smart Video Doorbell",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e06f88c4263aeb53afa3bf2d7d6586a8",
+                "via_device_id": null,
+                "area_id": "main",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c54ab4b85ee3193d9ac87b0dda85d24a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "90:f1:aa:eb:08:8c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "samsungtv",
+                        "055d4a81-005a-1000-9803-c4576e995bc7"
+                    ]
+                ],
+                "manufacturer": "Samsung Electronics",
+                "model": "UN65H6350",
+                "name": "[TV]Samsung LED65",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "48600c50cf50942339d6bf45e7f58b91",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "d3bfd8636c3e5679f4530b9c32647c34"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_duckdns"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Duck DNS",
+                "sw_version": "1.14.0",
+                "entry_type": "service",
+                "id": "ccaf3ff9eaf53ccd38db368dd02685f7",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/core_duckdns"
+            },
+            {
+                "config_entries": [
+                    "d3bfd8636c3e5679f4530b9c32647c34"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_vscode"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Studio Code Server",
+                "sw_version": "3.7.0",
+                "entry_type": "service",
+                "id": "2aad82e0b5d9b18404696b30b772d79f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
+            },
+            {
+                "config_entries": [
+                    "7e3d7eec3c1331e35a57dbe4e660d330"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:08583b02-008c-1000-8d84-c4576e676dcc"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "dlna_dmr",
+                        "uuid:08583b02-008c-1000-8d84-c4576e676dcc"
+                    ]
+                ],
+                "manufacturer": "Samsung Electronics",
+                "model": "UN65H6350",
+                "name": "[TV]Samsung LED65",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "25052521adacade758fc4aaa11fba455",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "LRQXI2hDUpHs0vH2H6Ex9bdniQ0h8/ami7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "Apple Watch Series 5",
+                "name": "De Havilland\u2019s Apple\u00a0Watch 5",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0ec3f2fba3c576bb0267bdb00e9ab745",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "/UNm01d39xZHRYhaWj1z8cfjPMwt7bfxi7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 12 Pro Max",
+                "name": "De Havilland\u2019s iPhone 12 Pro Max (B)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8fa0931be488aba4744f06ad2d9efe4f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "QkKnPAD4ajH38Wie3LYZpxY0NXrbbk7mi7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "Apple Watch Series 6 (GPS + Cellular)",
+                "name": "De Havilland\u2019s Apple\u00a0Watch 6",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8300234003cede425630297bbc5b1a06",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "t0v3GVsjsVDWwQSmLN+aLQE+lI9BtOH5Ae/FRAIL/4quzxhWQvCsc0qAZyl7falfJmUMS18eT6z7Yme7uleSP1blb0qbkEsm"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone XR",
+                "name": "iPhone",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0cd6ede0318bb79d869b74cb83618036",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "nA/v6NXyDuladerH6X6bQsgt/bMuU66Mw5w4yhvA1/2uzxhWQvCscy25Mh48ue2J2GcZeoK84yr7Yme7uleSP1blb0qbkEsm"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 13",
+                "name": "iPhone",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8b06783be0ab646a38ef2d62d98b39f2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "240b74e1e64114d1469dbcd9588654fd"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "31654824-C918-401C-B3DE-D5477D7B3AC7"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone13,4",
+                "name": "De Havilland\u2019s iPhone 12 Pro Max (B)",
+                "sw_version": "15.1",
+                "entry_type": null,
+                "id": "23b28e152112837ed7434c095d3d5782",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "n6ofM9CX4jCx54wp3kBE1miXwe2QZNN2i7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Pro",
+                "name": "De Havilland\u2019s iPad Pro",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "571216bc3daa33c1c20f213342e3f0b1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "NUubYupFTAOgJLmaWtzJaZlm01zmsOZxv1LWFUv0z/TgY5d7DZMkxQ=="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "MacBook Pro 13\"",
+                "name": "KSTAdmin\u2019s MacBook Pro (2)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "912f1b6837228cfbdd9828716f6ead28",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "40:3f:8c:b2:f6:e8"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "496da592a2d2513ec280d9ddb887fc32",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "40:3f:8c:b2:fa:04"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "75f10c481074a9ff9e43cffc36792464",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "40:3f:8c:b2:d7:8c"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "408fdfb8c8d9c4da5d07c1266b7051d7",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "d4:a3:3d:78:f2:f0"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "ac9f14789a58fd9a6e55d574320babbb",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "ce:4e:bd:2a:31:76"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "786385a18505e9a4fc5ccc359cc74e6e",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "68:64:4b:4d:41:6a"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "5e7e574c018d9207e3868ccf0545cd50",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "44:73:d6:22:53:67"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "1e21bff6143ee116df539e1fd9445fd6",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "9c:7b:ef:dc:46:e4"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "81ac004d3116f9d771c739283a57fe88",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "14:7d:da:9c:70:6f"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "4b7f1d774b31df924f01bcb52a9cb322",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "58:d3:49:51:20:15"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "ab49ca6fb766827bb4adb80b0bb7f56e",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:64:cf:60:a7:2e"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "014db63e43f58215a8c82ec9ba5776b2",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "10:1f:74:f7:3a:2b"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "ff4f840eebf8fd05a1c6187e73f5e08f",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "94:58:cb:9e:3b:71"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "d12d2619878d82a5abc28cea041adbaa",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "de:87:6d:99:ac:6a"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "f3cb6c1979ddc24040afc67229e8e17f",
+                "orphaned_timestamp": 1639462279.5963967
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "80:d6:05:78:05:ef"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "27add6af17bf88ce17232374f88881b5",
+                "orphaned_timestamp": 1639462279.5963967
+            }
+        ]
+    }
+}

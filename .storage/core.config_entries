@@ -1,0 +1,234 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "d3bfd8636c3e5679f4530b9c32647c34",
+                "version": 1,
+                "domain": "hassio",
+                "title": "Supervisor",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "system",
+                "unique_id": "hassio",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9e23526d1aec58952b9d3ab21baafb87",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "da4ab056a97d0de2845cbebb15ba284c",
+                "version": 1,
+                "domain": "upnp",
+                "title": "M5",
+                "data": {
+                    "udn": "uuid:e4c797e0-82ce-4f84-b56d-085d9d77c8cd",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "hostname": "192.168.68.1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "uuid:e4c797e0-82ce-4f84-b56d-085d9d77c8cd::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ab179170df47a607043ed4c24443368e",
+                "version": 1,
+                "domain": "ipp",
+                "title": "HP OfficeJet 3830 series [DC46E4]",
+                "data": {
+                    "host": "192.168.68.110",
+                    "port": 631,
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "HP OfficeJet 3830 series [DC46E4]",
+                    "uuid": "1c852a4d-b800-1f08-abcd-9c7befdc46e4"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "1c852a4d-b800-1f08-abcd-9c7befdc46e4",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "85a4a7d7be97a0aef9bc01421d7e238e",
+                "version": 1,
+                "domain": "hue",
+                "title": "Hue Bridge ecb5fa1d8fb5",
+                "data": {
+                    "host": "192.168.68.101",
+                    "api_key": "-okJSwHi4Pp8Q56tUSD-S9CpnyNNEv9nRsck-0wG",
+                    "api_version": 2
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "ecb5fa1d8fb5",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "6fe907fbd696a41bf919cf5ca58dab68",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Huawei IGD",
+                "data": {
+                    "udn": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "hostname": "192.168.1.254"
+                },
+                "options": {
+                    "scan_interval": 30
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9e33ed22f335e978be767f4a56ce6c04",
+                "version": 1,
+                "domain": "tuya",
+                "title": "djfox8705@icloud.com",
+                "data": {
+                    "endpoint": "https://openapi.tuyaus.com",
+                    "auth_type": 0,
+                    "access_id": "aff859pab65c70frc5zx",
+                    "access_secret": "b3fc2cb93c0c49cea581404819602af5",
+                    "username": "djfox8705@icloud.com",
+                    "password": "R@ms1587",
+                    "country_code": "1",
+                    "tuya_app_type": "tuyaSmart"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c54ab4b85ee3193d9ac87b0dda85d24a",
+                "version": 2,
+                "domain": "samsungtv",
+                "title": "[TV]Samsung LED65 (UN65H6350)",
+                "data": {
+                    "host": "192.168.68.111",
+                    "mac": "90:f1:aa:eb:08:8c",
+                    "manufacturer": "Samsung Electronics",
+                    "method": "websocket",
+                    "model": "UN65H6350",
+                    "name": "[TV]Samsung LED65",
+                    "port": 8001
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "055d4a81-005a-1000-9803-c4576e995bc7",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7e3d7eec3c1331e35a57dbe4e660d330",
+                "version": 1,
+                "domain": "dlna_dmr",
+                "title": "[TV]Samsung LED65",
+                "data": {
+                    "url": "http://192.168.68.111:7676/smp_22_",
+                    "device_id": "uuid:08583b02-008c-1000-8d84-c4576e676dcc",
+                    "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "uuid:08583b02-008c-1000-8d84-c4576e676dcc",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "4c35aecba4f071e30a750c378bbdc56b",
+                "version": 1,
+                "domain": "icloud",
+                "title": "djfox8705@gmail.com",
+                "data": {
+                    "username": "djfox8705@gmail.com",
+                    "password": "R*de$01nDr",
+                    "with_family": true,
+                    "max_interval": 30,
+                    "gps_accuracy_threshold": 500
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "djfox8705@gmail.com",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "240b74e1e64114d1469dbcd9588654fd",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "De Havilland\u2019s iPhone 12 Pro Max (B)",
+                "data": {
+                    "supports_encryption": true,
+                    "model": "iPhone13,4",
+                    "device_id": "31654824-C918-401C-B3DE-D5477D7B3AC7",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "app_version": "2021.11.1 (2021.266)",
+                    "os_version": "15.1",
+                    "device_name": "De Havilland\u2019s iPhone 12 Pro Max (B)",
+                    "app_name": "Home Assistant",
+                    "os_name": "iOS",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "fHNbskcFdk-yozJj2GYfaO:APA91bGiOiFZ0RdcARvN8xMANdqB0msJrr-_MgiKa5HO5sanXadO3HkoxoAEnIhyPa2dRQwQuBfcSs219_AEjHxK3wDY8YlAXlADdB7s-kN1MMHCzJ6YrrLTrAH_ETyCe7JlrEg2LX7q"
+                    },
+                    "webhook_id": "0ead903b0246f2fd68cad1d65385dfa0b63bb9e62011e91fb733b2cdac139f7c",
+                    "secret": "4c7248793db121ff892a3bb28a83ee85f5fa7d87c68063ba52e0a0ce4cd235b8",
+                    "user_id": "45b40bf5bdd24cd8b60fef7947836469"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-31654824-C918-401C-B3DE-D5477D7B3AC7",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9993fb9cc1225923651ed53f3fe33292",
+                "version": 1,
+                "domain": "ios",
+                "title": "Home Assistant iOS",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "ios",
+                "disabled_by": null
+            }
+        ]
+    }
+}
