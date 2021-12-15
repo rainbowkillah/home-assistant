@@ -369,11 +369,11 @@
                 "identifiers": [
                     [
                         "hue",
-                        "ecb5fafffe1d8fb5"
+                        "cf299277-1f58-4dd1-86e2-fe6526438757"
                     ],
                     [
                         "hue",
-                        "cf299277-1f58-4dd1-86e2-fe6526438757"
+                        "ecb5fafffe1d8fb5"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
@@ -754,34 +754,6 @@
             },
             {
                 "config_entries": [
-                    "6fe907fbd696a41bf919cf5ca58dab68"
-                ],
-                "connections": [
-                    [
-                        "upnp",
-                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
-                    ]
-                ],
-                "identifiers": [
-                    [
-                        "upnp",
-                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
-                    ]
-                ],
-                "manufacturer": "Huawei",
-                "model": "Huawei EchoLife Series",
-                "name": "Huawei IGD",
-                "sw_version": null,
-                "entry_type": null,
-                "id": "99d03304c985bd3d9d9a574aad0320c2",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": "http://192.168.1.254"
-            },
-            {
-                "config_entries": [
                     "9e33ed22f335e978be767f4a56ce6c04"
                 ],
                 "connections": [],
@@ -1088,6 +1060,57 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "4c35aecba4f071e30a750c378bbdc56b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "/UNm01d39xZKYNwE1gRkyLTZpxHDJK1Ci7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 12 Pro Max",
+                "name": "De Havilland\u2019s iPhone 12 Pro Max (P)",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5f843ebf6a4abc2bef2aedd37a1f29fd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "d9c14f870bee8752300bd0c9b64f897e"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D"
+                    ]
+                ],
+                "manufacturer": "Huawei",
+                "model": "Huawei EchoLife Series",
+                "name": "Huawei IGD",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "99d03304c985bd3d9d9a574aad0320c2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.1.254"
             }
         ],
         "deleted_devices": [

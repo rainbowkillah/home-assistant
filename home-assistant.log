@@ -1,53 +1,20 @@
-2021-12-13 21:33:58 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Huawei IGD' for upnp integration not ready yet; Retrying in background
-2021-12-13 21:35:20 ERROR (SyncWorker_4) [pyicloud.base] Authentication required for Account. (421)
-2021-12-13 21:35:29 WARNING (SyncWorker_3) [pyicloud.base.http] Failed to parse response with JSON mimetype
-2021-12-13 21:36:47 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 21:37:18 ERROR (MainThread) [aiohttp.server] Error handling request
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
-    resp = await request_handler(request)
-  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_app.py", line 504, in _handle
-    resp = await handler(request)
-  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_middlewares.py", line 117, in impl
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/security_filter.py", line 60, in security_filter_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/forwarded.py", line 98, in forwarded_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/request_context.py", line 28, in request_context_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 78, in ban_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 181, in auth_middleware
-    return await handler(request)
-  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 137, in handle
-    result = await result
-  File "/usr/src/homeassistant/homeassistant/components/config/config_entries.py", line 215, in post
-    return await super().post(request, flow_id)
-  File "/usr/src/homeassistant/homeassistant/components/http/data_validator.py", line 62, in wrapper
-    result = await method(view, request, *args, **kwargs)
-  File "/usr/src/homeassistant/homeassistant/helpers/data_entry_flow.py", line 110, in post
-    result = await self._flow_mgr.async_configure(flow_id, data)
-  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 252, in async_configure
-    result = await self._async_handle_step(flow, cur_step["step_id"], user_input)
-  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 325, in _async_handle_step
-    result: FlowResult = await getattr(flow, method)(user_input)
-  File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
-    coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
-KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 21:43:09 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/4ef1ed50185d4c9a93b852cebff4c6a05a16818c25a4f3d0
-2021-12-13 21:43:11 ERROR (MainThread) [frontend.js.latest.202112120] https://tu203d.duckdns.org/frontend_latest/93104ce0.js:8:3340 Uncaught TypeError: Cannot read properties of null (reading 'removeAttribute')
-2021-12-13 21:49:47 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:03:39 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:04:51 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:20:21 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:20:51 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:21:21 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:24:37 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:25:07 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:25:38 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:26:08 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:28:07 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:29:07 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 22:45:39 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/4ef1ed50185d4c9a93b852cebff4c6a05a16818c25a4f3d0
-2021-12-13 22:52:08 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 10:59:42 WARNING (MainThread) [homeassistant.config_entries] Config entry 'M5' for upnp integration not ready yet: Cannot connect to host 2806:1000:8000:36cf:423f:8cff:feb2:f6e8:1900 ssl:default [Network unreachable]; Retrying in background
+2021-12-15 11:27:52 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:28:22 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:29:22 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:29:53 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:31:02 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:31:19 ERROR (MainThread) [frontend.js.latest.202112120] :0:0 Script error.
+2021-12-15 11:31:25 ERROR (MainThread) [frontend.js.latest.202112120] :0:0 Script error.
+2021-12-15 11:32:22 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:50:06 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/1a8a030e13674fffadc6e8b1eba40ea80ea1456e4a05c99b
+2021-12-15 11:50:07 ERROR (MainThread) [frontend.js.latest.202112120] https://tu203d.duckdns.org/frontend_latest/93104ce0.js:8:3340 Uncaught TypeError: Cannot read properties of null (reading 'removeAttribute')
+2021-12-15 11:53:04 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:54:04 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:54:44 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:56:04 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:56:11 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 11:56:54 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 12:02:08 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 12:02:28 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
+2021-12-15 12:02:48 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.

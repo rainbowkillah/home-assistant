@@ -12,6 +12,15 @@
                 "radius": 78.09386013811125,
                 "icon": "mdi:map-marker",
                 "id": "suitland_mom"
+            },
+            {
+                "name": "South Bay IC",
+                "latitude": 32.58406613567648,
+                "longitude": -117.09877139149648,
+                "passive": false,
+                "radius": 125.0,
+                "icon": "mdi:map-marker",
+                "id": "south_bay_ic"
             }
         ]
     }

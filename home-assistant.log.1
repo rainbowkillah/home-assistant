@@ -1,7 +1,7 @@
-2021-12-13 20:42:35 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Huawei IGD' for upnp integration not ready yet; Retrying in background
-2021-12-13 20:42:46 WARNING (MainThread) [homeassistant.config_entries] Config entry 'M5' for upnp integration not ready yet; Retrying in background
-2021-12-13 20:42:52 ERROR (MainThread) [homeassistant.components.updater] Timeout fetching Home Assistant update data
-2021-12-13 20:45:10 ERROR (MainThread) [aiohttp.server] Error handling request
+2021-12-15 10:43:40 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2021-12-15 10:43:56 WARNING (MainThread) [homeassistant.config_entries] Config entry 'M5' for upnp integration not ready yet: Cannot connect to host 2806:1000:8000:36cf:423f:8cff:feb2:f6e8:1900 ssl:default [Network unreachable]; Retrying in background
+2021-12-15 10:44:04 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Huawei IGD' for upnp integration not ready yet; Retrying in background
+2021-12-15 10:47:04 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
     resp = await request_handler(request)
@@ -34,7 +34,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
     coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
 KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 20:45:11 ERROR (MainThread) [aiohttp.server] Error handling request
+2021-12-15 10:47:05 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
     resp = await request_handler(request)
@@ -67,7 +67,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
     coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
 KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 20:45:12 ERROR (MainThread) [aiohttp.server] Error handling request
+2021-12-15 10:49:14 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
     resp = await request_handler(request)
@@ -100,7 +100,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
     coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
 KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 20:47:23 ERROR (MainThread) [aiohttp.server] Error handling request
+2021-12-15 10:51:35 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
     resp = await request_handler(request)
@@ -133,10 +133,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
     coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
 KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 20:47:48 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/d7707e8dee4948a4ad7039c9f9615e3ac2f9cb5be7b7c382
-2021-12-13 20:47:52 ERROR (MainThread) [frontend.js.latest.202112120] https://tu203d.duckdns.org/frontend_latest/93104ce0.js:8:3340 Uncaught TypeError: Cannot read properties of null (reading 'removeAttribute')
-2021-12-13 20:47:57 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 20:48:55 ERROR (MainThread) [aiohttp.server] Error handling request
+2021-12-15 10:53:23 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
     resp = await request_handler(request)
@@ -169,16 +166,37 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
     coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
 KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
-2021-12-13 20:49:14 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/d7707e8dee4948a4ad7039c9f9615e3ac2f9cb5be7b7c382
-2021-12-13 20:49:24 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/d7707e8dee4948a4ad7039c9f9615e3ac2f9cb5be7b7c382
-2021-12-13 20:49:44 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/d7707e8dee4948a4ad7039c9f9615e3ac2f9cb5be7b7c382
-2021-12-13 20:49:46 WARNING (MainThread) [haffmpeg.tools] Timeout reading image.
-2021-12-13 20:50:15 ERROR (stream_worker) [homeassistant.components.stream] Error from stream worker: Error opening stream rtsps://****:****@aws-tractor2.tuyaus.com:443/v1/proxy/echo_show/d7707e8dee4948a4ad7039c9f9615e3ac2f9cb5be7b7c382
-2021-12-13 20:50:16 ERROR (MainThread) [frontend.js.latest.202112120] https://tu203d.duckdns.org/frontend_latest/93104ce0.js:8:3340 Uncaught TypeError: Cannot read properties of null (reading 'removeAttribute')
-2021-12-13 21:31:34 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.
-2021-12-13 21:33:18 WARNING (MainThread) [zeroconf] Error with socket 22 (('fdc0:bc02:a71b:1:c123:9911:27f2:a27a', 5353, 0, 0))): [Errno 101] Network unreachable
+2021-12-15 10:53:24 ERROR (MainThread) [aiohttp.server] Error handling request
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.9/asyncio/selector_events.py", line 1056, in sendto
-    self._sock.sendto(data, addr)
-OSError: [Errno 101] Network unreachable
-2021-12-13 21:33:20 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /homeassistant/restart request Server disconnected
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/security_filter.py", line 60, in security_filter_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/forwarded.py", line 98, in forwarded_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/request_context.py", line 28, in request_context_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 78, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 181, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 137, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/config/config_entries.py", line 215, in post
+    return await super().post(request, flow_id)
+  File "/usr/src/homeassistant/homeassistant/components/http/data_validator.py", line 62, in wrapper
+    result = await method(view, request, *args, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/data_entry_flow.py", line 110, in post
+    result = await self._flow_mgr.async_configure(flow_id, data)
+  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 252, in async_configure
+    result = await self._async_handle_step(flow, cur_step["step_id"], user_input)
+  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 325, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/usr/src/homeassistant/homeassistant/components/upnp/config_flow.py", line 295, in async_step_init
+    coordinator = self.hass.data[DOMAIN][self.config_entry.entry_id]
+KeyError: '6fe907fbd696a41bf919cf5ca58dab68'
+2021-12-15 10:59:11 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /homeassistant/restart request Server disconnected

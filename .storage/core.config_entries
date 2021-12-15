@@ -42,7 +42,9 @@
                     "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
                     "hostname": "192.168.68.1"
                 },
-                "options": {},
+                "options": {
+                    "scan_interval": 30
+                },
                 "pref_disable_new_entities": false,
                 "pref_disable_polling": false,
                 "source": "ssdp",
@@ -55,7 +57,7 @@
                 "domain": "ipp",
                 "title": "HP OfficeJet 3830 series [DC46E4]",
                 "data": {
-                    "host": "192.168.68.110",
+                    "host": "192.168.68.102",
                     "port": 631,
                     "ssl": false,
                     "verify_ssl": false,
@@ -76,7 +78,7 @@
                 "domain": "hue",
                 "title": "Hue Bridge ecb5fa1d8fb5",
                 "data": {
-                    "host": "192.168.68.101",
+                    "host": "192.168.68.104",
                     "api_key": "-okJSwHi4Pp8Q56tUSD-S9CpnyNNEv9nRsck-0wG",
                     "api_version": 2
                 },
@@ -85,25 +87,6 @@
                 "pref_disable_polling": false,
                 "source": "zeroconf",
                 "unique_id": "ecb5fa1d8fb5",
-                "disabled_by": null
-            },
-            {
-                "entry_id": "6fe907fbd696a41bf919cf5ca58dab68",
-                "version": 1,
-                "domain": "upnp",
-                "title": "Huawei IGD",
-                "data": {
-                    "udn": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D",
-                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
-                    "hostname": "192.168.1.254"
-                },
-                "options": {
-                    "scan_interval": 30
-                },
-                "pref_disable_new_entities": false,
-                "pref_disable_polling": false,
-                "source": "user",
-                "unique_id": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
                 "disabled_by": null
             },
             {
@@ -227,6 +210,23 @@
                 "pref_disable_polling": false,
                 "source": "user",
                 "unique_id": "ios",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d9c14f870bee8752300bd0c9b64f897e",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Huawei IGD",
+                "data": {
+                    "udn": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "hostname": "192.168.1.254"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "uuid:00e0fc37-2525-2828-2500-3C15FBFA4D5D::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
                 "disabled_by": null
             }
         ]

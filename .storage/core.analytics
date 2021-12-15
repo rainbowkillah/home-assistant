@@ -4,7 +4,10 @@
     "key": "core.analytics",
     "data": {
         "preferences": {
-            "diagnostics": true
+            "diagnostics": true,
+            "base": false,
+            "usage": false,
+            "statistics": false
         },
         "onboarded": true,
         "uuid": null

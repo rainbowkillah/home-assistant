@@ -24,6 +24,15 @@
                 "user_id": null,
                 "picture": null,
                 "id": "surona_fox"
+            },
+            {
+                "name": "Tiara Rials",
+                "device_trackers": [
+                    "device_tracker.iphone"
+                ],
+                "user_id": null,
+                "picture": null,
+                "id": "tiara_rials"
             }
         ]
     }
